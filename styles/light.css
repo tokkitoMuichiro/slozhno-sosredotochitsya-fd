@@ -17,6 +17,20 @@
   --accent-text-color: #353430;
   --paragraph-text-color: #353430;
   --button-hover-effect: 1px solid rgba(50, 49, 45, 0.4);
+  --decorate-element-color: #353430;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --body-bg-image: url(../images/cover-image-light.png);
+    --body-bg-color: #fff1f7;
+    --main-text-color: #353430;
+    --header-title-color: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --accent-text-color: #353430;
+    --paragraph-text-color: #353430;
+    --button-hover-effect: 1px solid rgba(50, 49, 45, 0.4);
+  }
 }
 
 html.theme-light .decoration-element {
